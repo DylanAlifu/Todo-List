@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#newTaskText {
+  width: 300px;
+}
+
+.pointer {
+  cursor: pointer;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.pointer:hover {
+  background-color: hsl(0, 0%, 80%);
+}
+
+.simple-input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.39);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.form-check-label {
+  padding-left: 10px;
+}
+
+.priority-icon {
+  padding-right: 5px;
+}
+
+.sort-select{
+  width: fit-content;
+}
