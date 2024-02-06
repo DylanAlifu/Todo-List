@@ -10,7 +10,7 @@ const Sort = () => {
 
   return (
     <div className="d-flex align-items-center column-gap-1">
-      <span>Sort by:</span>
+      <span className="sort">Sort by:</span>
       <select
         className="form-select sort-select"
         value={sortOrder}

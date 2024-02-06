@@ -6,14 +6,16 @@ import { Sort } from "./components/Sort";
 
 function App() {
   return (
-    <div id="main-container">
-      <div className="d-flex justify-content-between mb-3">
-        <Sort />
-        <AddTask />
+    <div id="main-container" className="card">
+      <div className="card2">
+        <div className="d-flex justify-content-between mb-3">
+          <Sort />
+          <AddTask />
+        </div>
+        <TasksList />
+        <Filters />
+        <ClearTask />
       </div>
-      <TasksList />
-      <Filters />
-      <ClearTask />
     </div>
   );
 }
